@@ -1,9 +1,8 @@
-function Project() {
+export default function Project() {
     return (
         <div>
             Project page!
         </div>
     );
-}
+};
 
-export default Project;
