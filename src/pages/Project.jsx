@@ -18,16 +18,12 @@ export default function Project() {
     //filter 상태
     const [filter, setFilter] = useState("ALL");
 
-    //filter를 이용한 필터된 프로젝트
+    //filter 메서드를 이용해 같은 category 끼리 필터된 projects
     const filteredProjects = filter === 'ALL' ? projects : projects.filter((p) => p.category === filter);
 
-
-    const ProjectButton = ({name}) => {
+    //Project 안에 있는 Category 버튼 컴포넌트
+    const CategoryButton = ({name}) => {
         const isActive = filter === name;
-        console.log("name" , name)
-        console.log("isActive", isActive)
-        console.log("filter", filter)
-
 
         return (
             <button onClick={() => setFilter(name)}
@@ -55,8 +51,8 @@ export default function Project() {
         );
     };
     return (
-        <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
 
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <div className="">
                 <h2 className="my-8 text-4xl md:text-5xl leading-10 text-center font-bold	sm:leading-12 lg:text-6xl">My Most<br/> Recent Project</h2>
@@ -65,10 +61,10 @@ export default function Project() {
             {/*필터 버튼*/}
             <div className="flex justify-center">
                 <div className=" w-fit flex gap-2 items-center justify-center rounded-full px-4 py-3 bg-gray-300 max-sm:w-full">
-                    <ProjectButton name={"ALL"}/>
-                    <ProjectButton name={"JS"} />
-                    <ProjectButton name={"REACT"}/>
-                    <ProjectButton name={"PUBLISHING"}/>
+                    <CategoryButton name={"ALL"}/>
+                    <CategoryButton name={"JS"} />
+                    <CategoryButton name={"REACT"}/>
+                    <CategoryButton name={"PUBLISHING"}/>
                 </div>
             </div>
 

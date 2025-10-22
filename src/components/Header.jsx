@@ -16,7 +16,7 @@ export default function Header() {
 
     return (
         <div className="sticky top-0 bg-gray-300 position-fixed w-full left-0 rigth-0 z-999  ">
-            <header className="max-w-5xl mx-auto">
+            <header className="max-w-7xl mx-auto">
                 <div className="flex justify-between items-center w-full h-16 font-bold text-base px-4">
                     <Link to='/'>yeonji</Link>
                     <nav className="items-center space-x-6 hidden sm:flex">
