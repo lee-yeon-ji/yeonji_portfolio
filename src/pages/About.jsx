@@ -5,7 +5,7 @@ export default function About() {
         <div className="flex opacity-1">
             <div className="">
                 <div className="max-w-2xl   mx-auto">
-                    <img src="/img/img_portfolio.png" alt="img"/>
+                    <img src="/img/img_portfolio.jpg" alt="img"/>
                 </div>
             </div>
 
@@ -27,7 +27,9 @@ export default function About() {
                     <div className="font-bold text-3xl">My tech stack</div>
                     <div className="pt-6">
                         <ul>
-                            <li>
+                            <li className="max-w-12">
+                                <img className="" src="/img/ic_react.svg" alt="img_react"/>
+
 
                             </li>
 
