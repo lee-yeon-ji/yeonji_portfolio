@@ -26,14 +26,37 @@ export default function About() {
                 <div className="pt-14">
                     <div className="font-bold text-3xl">My tech stack</div>
                     <div className="pt-6">
-                        <ul>
-                            <li className="max-w-12">
-                                <img className="" src="/img/ic_react.svg" alt="img_react"/>
+                        <ul className="flex">
+                            <li className="max-w-12 h-10">
+                                <img className="w-full" src="/img/ic_react.svg" alt="img_react"/>
+                            </li>
 
+                            <li className="max-w-12 h-10">
+                                <img className="w-full" src="/img/ic_html.svg" alt="img_react"/>
 
                             </li>
 
-                            <li></li>
+                            <li className="max-w-12 h-10">
+                                <img className="w-full" src="/img/ic_css.svg" alt="img_react"/>
+
+                            </li>
+
+                            <li className="max-w-12 h-10">
+                                <img className="w-full" src="/img/ic_js.svg" alt="img_react"/>
+
+                            </li>
+
+                            <li className="max-w-12 h-10">
+                                <img className="w-full" src="/img/ic_typescript.svg" alt="img_react"/>
+
+                            </li>
+
+                            <li className="max-w-12 h-10">
+                                <img className="w-full" src="/img/ic_figma.svg" alt="img_react"/>
+
+                            </li>
+
+
                         </ul>
 
                     </div>
