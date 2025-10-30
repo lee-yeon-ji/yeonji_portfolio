@@ -2,7 +2,7 @@
 export default function Home() {
     return (
         <div>
-            <h1>LEE YEON JI</h1>
+            <h1 className="font-bold">LEE YEON JI</h1>
             <div className={""}>
                 <div>Creative</div>
                 <div>developer</div>
