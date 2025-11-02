@@ -5,7 +5,9 @@ export default function Home() {
 
         <div className="grid grid-cols-2 gap-10 ">
             <div>
-                <div className="">이미지</div>
+                <div className="">
+                    <img src="/img/img_home_bg.jpg" alt="img"/>
+                </div>
             </div>
             <div>
                 <h1 className="font-bold text-8xl">LEE YEON JI</h1>
@@ -15,8 +17,8 @@ export default function Home() {
                     <div className="font-semibold">developer</div>
                 </div>
 
-                <div className="h-15">
-                    <a className="bg-gray-300  p-5" href="/project">go project!</a>
+                <div className="">
+                    <a className="inline-flex items-center bg-gray-300  p-5" href="/project">go project!</a>
 
                 </div>
 
