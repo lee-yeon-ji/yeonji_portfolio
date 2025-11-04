@@ -19,6 +19,7 @@ export default function Home() {
 
                 <div className="pt-14">
                     <a className="bg-black text-white px-4 py-4 text-3xl rounded shadow hover:shadow-lg hover:bg-white hover:text-black hover:border-black transition duration-200" href="/project">go project!</a>
+                    <a className="bg-black text-white px-4 py-4 text-3xl rounded shadow hover:shadow-lg hover:bg-white hover:text-black hover:border-black transition duration-200" href="/project">go project!</a>
 
                 </div>
 
