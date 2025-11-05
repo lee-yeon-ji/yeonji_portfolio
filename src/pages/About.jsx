@@ -20,7 +20,7 @@ export default function About() {
                 <div className="pt-14">
                     <div className="font-bold text-3xl">certificate</div>
                     <div className="pt-6">
-                        정보처리기사(2025) - 실기 시험예정
+                        <span className=""></span> 정보처리기사 자격증
                     </div>
                 </div>
                 <div className="pt-14">
