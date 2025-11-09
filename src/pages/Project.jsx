@@ -62,9 +62,10 @@ export default function Project() {
             <div className="flex justify-center">
                 <div className=" w-fit flex gap-2 items-center justify-center rounded-full px-4 py-3 bg-gray-300 max-sm:w-full">
                     <CategoryButton name={"ALL"}/>
+                    <CategoryButton name={"PUBLISHING"}/>
                     <CategoryButton name={"JS"} />
                     <CategoryButton name={"REACT"}/>
-                    <CategoryButton name={"PUBLISHING"}/>
+
                 </div>
             </div>
 
