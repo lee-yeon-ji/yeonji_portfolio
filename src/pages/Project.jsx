@@ -6,7 +6,7 @@ export default function Project() {
   //프로젝트 데이터
     const projects = [
         { id: 1, name: "JS Project 1", category: "JS" },
-        { id: 2, name: "React App", category: "REACT" },
+        { id: 2, name: "portfolio", category: "REACT", img: "/img/img_project1.png"},
         { id: 3, name: "Vanilla Script", category: "JS" },
         { id: 4, name: "React Dashboard", category: "REACT" },
         { id: 5, name: "Publishing Dashboard", category: "PUBLISHING" },
@@ -36,9 +36,10 @@ export default function Project() {
     };
 
 
-    const ProjectCard = ({ name }) => {
+    const ProjectCard = ({ name, img }) => {
         return (
-            <motion.div
+            <>
+                <motion.div
                 layout
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -47,7 +48,12 @@ export default function Project() {
                 className="border-2 border-slate-500 rounded-2xl p-4 h-64 overflow-hidden cursor-pointer flex items-center justify-center hover:shadow-xl hover:scale-[1.02] transition-all"
             >
                 <span className="text-lg font-semibold">{name}</span>
+                <span className="w-full h-full">{img}</span>
             </motion.div>
+
+
+            </>
+
         );
     };
     return (
