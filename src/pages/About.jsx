@@ -27,7 +27,7 @@ export default function About() {
                 <div className="pt-14">
                     <div className="font-bold text-3xl">My tech stack</div>
                     <div className="pt-6">
-                        <ul className="flex gap-6">L
+                        <ul className="flex gap-6">
                             <li className="max-w-12 h-10">
                                 <img className="w-full" src="/img/ic_react.svg" alt="img_react"/>
                             </li>

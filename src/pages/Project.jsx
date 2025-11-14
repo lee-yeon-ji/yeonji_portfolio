@@ -5,13 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function Project() {
   //프로젝트 데이터
     const projects = [
-        { id: 1, name: "JS Project 1", category: "JS" },
+        { id: 1, name: "JS Project 1", category: "JS", img: "/img/img_project1.png"},
         { id: 2, name: "portfolio", category: "REACT", img: "/img/img_project1.png"},
-        { id: 3, name: "Vanilla Script", category: "JS" },
-        { id: 4, name: "React Dashboard", category: "REACT" },
-        { id: 5, name: "Publishing Dashboard", category: "PUBLISHING" },
-        { id: 6, name: "Publishing Project", category: "PUBLISHING" },
-        { id: 7, name: "Pubble item", category: "PUBLISHING" },
+        { id: 3, name: "Vanilla Script", category: "JS", img: "/img/img_project1.png" },
+        { id: 4, name: "React Dashboard", category: "REACT", img: "/img/img_project1.png" },
+        { id: 5, name: "Publishing Dashboard", category: "PUBLISHING", img: "/img/img_project1.png" },
+        { id: 6, name: "Publishing Project", category: "PUBLISHING", img: "/img/img_project1.png" },
+        { id: 7, name: "Pubble item", category: "PUBLISHING", img: "/img/img_project1.png" },
     ];
 
 
@@ -45,11 +45,13 @@ export default function Project() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.3 }}
-                className="border-2 border-slate-500 rounded-2xl p-4 h-64 overflow-hidden cursor-pointer flex items-center justify-center hover:shadow-xl hover:scale-[1.02] transition-all"
+                className="border-2 border-slate-500 rounded-2xl overflow-hidden cursor-pointer flex flex-col hover:shadow-xl hover:scale-[1.02] transition-all"
             >
-                <span className="text-lg font-semibold">{name}</span>
-                <span className="w-full h-full">{img}</span>
-            </motion.div>
+                <img src={img} alt={name} className="w-full h-48 object-cover p-4"  />
+                <div className="p-4">
+                    <span className="text-lg font-semibold">{name}</span>
+                </div>
+                </motion.div>
 
 
             </>
@@ -95,7 +97,7 @@ export default function Project() {
                         >
                             {filteredProjects.map((project) => (
                                 <motion.li key={project.id} layout>
-                                    <ProjectCard name={project.name} />
+                                    <ProjectCard name={project.name} img={project.img} />
                                 </motion.li>
                             ))}
                         </motion.ul>
