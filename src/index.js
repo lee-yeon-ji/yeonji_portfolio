@@ -7,6 +7,7 @@ import About from './pages/About';
 import Project from './pages/Project';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage";
+import { ThemeProvider } from './context/ThemeContext';
 
 const router = createBrowserRouter([
     {
@@ -42,8 +43,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+        <ThemeProvider>
+            <RouterProvider router={router} />
+        </ThemeProvider>
     </React.StrictMode>
 );
