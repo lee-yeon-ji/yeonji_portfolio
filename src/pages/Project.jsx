@@ -45,11 +45,11 @@ export default function Project() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.3 }}
-                className="border-2 border-slate-500 rounded-2xl overflow-hidden cursor-pointer flex flex-col hover:shadow-xl hover:scale-[1.02] transition-all"
+                className="border-2 border-slate-500 dark:border-slate-400 rounded-2xl overflow-hidden cursor-pointer flex flex-col hover:shadow-xl hover:scale-[1.02] transition-all"
             >
                 <img src={img} alt={name} className="w-full h-48 object-cover p-4"  />
                 <div className="p-4">
-                    <span className="text-lg font-semibold">{name}</span>
+                    <span className="text-lg font-semibold text-gray-900 dark:text-white">{name}</span>
                 </div>
                 </motion.div>
 
@@ -60,7 +60,7 @@ export default function Project() {
     };
     return (
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-900 dark:text-white">
 
             <div className="">
                 <h2 className="my-8 text-4xl md:text-5xl leading-10 text-center font-bold	sm:leading-12 lg:text-6xl">My Most<br/> Recent Project</h2>
@@ -68,7 +68,7 @@ export default function Project() {
 
             {/*필터 버튼*/}
             <div className="flex justify-center">
-                <div className=" w-fit flex gap-2 items-center justify-center rounded-full px-4 py-3 bg-gray-300 max-sm:w-full">
+                <div className=" w-fit flex gap-2 items-center justify-center rounded-full px-4 py-3 bg-gray-300 dark:bg-gray-700 max-sm:w-full">
                     <CategoryButton name={"ALL"}/>
                     <CategoryButton name={"PUBLISHING"}/>
                     <CategoryButton name={"JS"} />

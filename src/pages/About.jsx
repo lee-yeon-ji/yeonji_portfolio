@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function About() {
     return (
-        <div className="flex opacity-1">
+        <div className="flex opacity-1 text-gray-900 dark:text-white">
             <div className="">
                 <div className="max-w-2xl   mx-auto">
                     <img src="/img/img_portfolio.jpg" alt="img"/>
@@ -20,7 +20,7 @@ export default function About() {
                 <div className="pt-14">
                     <div className="font-bold text-3xl">certificate</div>
                     <div className="pt-6 flex gap-4 items-center">
-                        <span className="bg-black rounded-full w-1 h-1"></span>
+                        <span className="bg-black dark:bg-white rounded-full w-1 h-1"></span>
                         <span className="">2025년 정보처리기사 자격증</span>
                     </div>
                 </div>
