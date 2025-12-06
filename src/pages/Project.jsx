@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function Project() {
   //프로젝트 데이터
     const projects = [
-        { id: 1, name: "JS Project 1", category: "JS", img: "/img/img_project1.png"},
-        { id: 2, name: "portfolio", category: "REACT", img: "/img/img_project1.png"},
+        { id: 1, name: "portfolio", category: "JS", img: "/img/img_project1.png"},
+        { id: 2, name: "Netflix", category: "REACT", img: "/img/img_project2.png"},
         { id: 3, name: "Vanilla Script", category: "JS", img: "/img/img_project1.png" },
         { id: 4, name: "React Dashboard", category: "REACT", img: "/img/img_project1.png" },
         { id: 5, name: "Publishing Dashboard", category: "PUBLISHING", img: "/img/img_project1.png" },
@@ -47,7 +47,7 @@ export default function Project() {
                 transition={{ duration: 0.3 }}
                 className="border-2 border-slate-500 dark:border-slate-400 rounded-2xl overflow-hidden cursor-pointer flex flex-col hover:shadow-xl hover:scale-[1.02] transition-all"
             >
-                <img src={img} alt={name} className="w-full h-48 object-cover p-4"  />
+                <img src={img} alt={name} className="w-full h-49 object-cover p-4"  />
                 <div className="p-4">
                     <span className="text-lg font-semibold text-gray-900 dark:text-white">{name}</span>
                 </div>
@@ -60,7 +60,7 @@ export default function Project() {
     };
     return (
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-900 dark:text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 text-gray-900 dark:text-white">
 
             <div className="">
                 <h2 className="my-8 text-4xl md:text-5xl leading-10 text-center font-bold	sm:leading-12 lg:text-6xl">My Most<br/> Recent Project</h2>

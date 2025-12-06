@@ -20,7 +20,7 @@ export default function AppMovingDot() {
             window.removeEventListener('mousemove', handleMouseMove);
         };
     }, []);
-
+  
     return (
         <div style={{
             position: 'absolute',
