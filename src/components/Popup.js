@@ -1,5 +1,5 @@
 import React from "react";
-import "./Popup.css"; // 스타일은 따로 분리
+import "../Popup.css";
 
 function Popup({ isOpen, title, children, onClose }) {
     if (!isOpen) return null;
@@ -22,11 +22,7 @@ function Popup({ isOpen, title, children, onClose }) {
                     {children}
                 </main>
 
-                <footer className="popup-footer">
-                    <button className="popup-button" onClick={onClose}>
-                        닫기
-                    </button>
-                </footer>
+
             </div>
         </div>
     );
