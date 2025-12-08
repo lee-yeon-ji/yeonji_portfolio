@@ -137,6 +137,18 @@ export default function Project() {
                     </Popup>
                 )}
             </AnimatePresence>
+            <AnimatePresence>
+                {isPopupOpen && (
+                    <Popup
+                        isOpen={isPopupOpen}
+                        title={selectedProject?.name}
+                        onClose={() => setIsPopupOpen(false)}
+                    >
+                        <p>카테고리: {selectedProject?.category}</p>
+                        {/* 여기에 GitHub 링크, 설명 등 원하는 내용 넣기 */}
+                    </Popup>
+                )}
+            </AnimatePresence>
         </div>
     );
 };
