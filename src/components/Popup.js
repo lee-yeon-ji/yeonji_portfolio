@@ -1,7 +1,11 @@
 import React from "react";
 import "../Popup.css";
 
-function Popup({ isOpen, title, children, onClose }) {
+function Popup({ isOpen, title, image, children, onClose}) {
+
+
+
+
     if (!isOpen) return null;
 
     const handleOverlayClick = (e) => {
@@ -19,6 +23,11 @@ function Popup({ isOpen, title, children, onClose }) {
                 </header>
 
                 <main className="popup-body">
+                    {image && (
+                        <div className="popup-image-container">
+                            <img src={image} alt={title} className="popup-image" />
+                        </div>
+                    )}
                     {children}
                 </main>
 
