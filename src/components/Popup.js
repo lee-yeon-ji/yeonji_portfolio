@@ -18,7 +18,7 @@ function Popup({ isOpen, title, image, children, onClose}) {
                 <header className="popup-header">
                     <h2 className="popup-title">{title}</h2>
                     <button className="popup-close" onClick={onClose}>
-                        ×
+                       <i className="ic ic-close"></i>
                     </button>
                 </header>
 

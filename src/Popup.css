@@ -26,15 +26,23 @@
 }
 
 .popup-title {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .popup-close {
-    border: none;
-    background: transparent;
-    font-size: 20px;
+
     cursor: pointer;
+
+    .ic{
+        display: block;
+        width: 24px;
+        height: 24px;
+
+        &.ic-close{
+           background: url("../public/img/ic_close.svg")no-repeat center / cover;
+        }
+    }
 }
 
 .popup-body {
