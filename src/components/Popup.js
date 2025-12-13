@@ -32,9 +32,11 @@ function Popup({ isOpen, title, image, children, onClose}) {
                 </main>
 
 
+
             </div>
         </div>
     );
 }
+
 
 export default Popup;

@@ -137,6 +137,22 @@ export default function Project() {
                             <p className="text-gray-700 dark:text-gray-300">
                                 <strong>카테고리:</strong> {selectedProject?.category}
                             </p>
+                            <p>Description</p>
+                            <p>저의 포트폴리오입니다. 주요 페이지는 About,Project,Board(게시판)으로 구성되어 있고 게시판 페이지는 파이어베이스를 활용하여 누구에게나 로그인을 안하고 이용 할 수 있도록 만들어봤습니다.</p>
+                            <p>
+                                Use Skill
+
+                            </p>
+
+                            <div>
+                                <div> - React</div>
+                                <div>- react - router</div>
+                                <div>- styled-components</div>
+
+
+
+                            </div>
+
 
                             {selectedProject?.github && (
                                 <a
