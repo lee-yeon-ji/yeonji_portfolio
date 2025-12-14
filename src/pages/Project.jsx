@@ -144,7 +144,7 @@ export default function Project() {
 
                             </p>
 
-                            <div>
+                            <div className={ "grid grid-cols-2 gap-4"}>
                                 <div> - React</div>
                                 <div>- react - router</div>
                                 <div>- styled-components</div>
