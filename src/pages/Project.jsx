@@ -29,16 +29,16 @@ export default function Project() {
             id: 3,
             name: "Vanilla Script",
             category: "JS",
-            img: "/img/img_project1.png",
+            img: "/img/img_project3.png",
             site: "https://jammy.lge.co.kr/event",
-            description: "Vanilla JavaScript 프로젝트입니다.",
+            description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
             skills: ["JavaScript", "HTML", "CSS"]
         },
         {
             id: 4,
             name: "React Dashboard",
             category: "REACT",
-            img: "/img/img_project1.png",
+            img: "/img/img_project4.png",
             github: "https://github.com/username/react-dashboard",
             description: "React 대시보드 프로젝트입니다.",
             skills: ["React", "Chart.js", "Material-UI"]
