@@ -30,7 +30,7 @@ export default function Project() {
             name: "Vanilla Script",
             category: "JS",
             img: "/img/img_project1.png",
-            github: "https://github.com/username/vanilla-script",
+            site: "https://jammy.lge.co.kr/event",
             description: "Vanilla JavaScript 프로젝트입니다.",
             skills: ["JavaScript", "HTML", "CSS"]
         },
@@ -194,7 +194,9 @@ export default function Project() {
                             category={selectedProject?.category}
                             description={selectedProject?.description}
                             skills={selectedProject?.skills}
+                            site={selectedProject?.site}
                         />
+
 
                         {selectedProject?.github && (
                             <a

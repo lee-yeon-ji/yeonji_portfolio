@@ -1,4 +1,4 @@
-export default function ProjectDetail({ category, description, skills }) {
+export default function ProjectDetail({ category, description, skills, site }) {
     return (
         <div className="space-y-4">
             <p className="text-gray-700 dark:text-gray-300">
@@ -20,6 +20,17 @@ export default function ProjectDetail({ category, description, skills }) {
                     ))}
                 </div>
             </div>
+
+            <div className="flex">
+                <p className="font-semibold ">Site</p>
+                <a
+                    href={site}
+                    className="text-blue-600 dark:text-blue-400 break-all pl-5 "
+                >
+                    {site}
+                </a>
+            </div>
+
         </div>
     );
 }
