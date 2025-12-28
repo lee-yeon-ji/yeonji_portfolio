@@ -27,8 +27,8 @@ export default function Project() {
         },
         {
             id: 3,
-            name: "Vanilla Script",
-            category: "JS",
+            name: "LG Jammy",
+            category: "PUBLISHING",
             img: "/img/img_project3.png",
             site: "https://jammy.lge.co.kr/event",
             description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
@@ -36,8 +36,8 @@ export default function Project() {
         },
         {
             id: 4,
-            name: "React Dashboard",
-            category: "REACT",
+            name: "LG 전자 스스로 해결",
+            category: "PUBLISHING",
             img: "/img/img_project4.png",
             github: "https://github.com/username/react-dashboard",
             description: "React 대시보드 프로젝트입니다.",
@@ -45,7 +45,7 @@ export default function Project() {
         },
         {
             id: 5,
-            name: "Publishing Dashboard",
+            name: "asil",
             category: "PUBLISHING",
             img: "/img/img_project1.png",
             github: "https://github.com/username/publishing-dashboard",
@@ -112,7 +112,9 @@ export default function Project() {
                     transition={{duration: 0.3}}
                     className="border-2 border-slate-500 dark:border-slate-400 rounded-2xl overflow-hidden cursor-pointer flex flex-col hover:shadow-xl hover:scale-[1.02] transition-all"
                 >
-                    <img src={img} alt={name} className="w-full h-49 object-cover p-4"/>
+                    <div className="w-full h-80 p-4">
+                        <img src={img} alt={name} className="w-full h-full object-cover rounded-lg"/>
+                    </div>
                     <div className="p-4">
                         <span className="text-lg font-semibold text-gray-900 dark:text-white">{name}</span>
                     </div>

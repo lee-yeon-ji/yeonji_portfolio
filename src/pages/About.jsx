@@ -21,7 +21,7 @@ export default function About() {
                     <div className="font-bold text-3xl">certificate</div>
                     <div className="pt-6 flex gap-4 items-center">
                         <span className="bg-black dark:bg-white rounded-full w-1 h-1"></span>
-                        <span className="">2025년 정보처리기사 자격증</span>
+                        <span className="">2026년 정보처리기사 실기 준비</span>
                     </div>
                 </div>
                 <div className="pt-14">

@@ -1,10 +1,6 @@
 export default function ProjectDetail({ category, description, skills, site }) {
     return (
         <div className="space-y-4">
-            <p className="text-gray-700 dark:text-gray-300">
-                <strong>카테고리:</strong> {category}
-            </p>
-
             <div>
                 <p className="font-semibold mb-2">Description</p>
                 <p className="text-gray-700 dark:text-gray-300">{description}</p>
