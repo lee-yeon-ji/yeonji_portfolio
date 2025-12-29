@@ -35,7 +35,7 @@ export default function Header() {
 
                 {/* mobile Menu */}
                 <aside className={`
-            fixed top-0 right-0 w-64 h-full bg-gray-300 dark:bg-gray-800 z-999
+            fixed top-0 right-0 w-64 h-full bg-gray-300 dark:bg-gray-800 z-9
             ${isMenuOpen ? '-translate-x-0' : 'translate-x-full'}
             sm:hidden transform transition-transform duration-300 ease-in-out `} >
 
@@ -46,7 +46,7 @@ export default function Header() {
                     </div>
                     <nav className="flex flex-col space-y-4 p-4 items-start w-full h-screen pt-32 text-gray-900 dark:text-white">
                         {navItems.map(item => (
-                            <NavLink key={item.id} to={item.to} className="hover:text-gray-600 dark:hover:text-gray-300">
+                            <NavLink key={item.id} to={item.to} className="hover:text-gray-600 dark:hover:text-gray-300" onClick={toggleMenu}>
                                 {item.label}
                             </NavLink>
 

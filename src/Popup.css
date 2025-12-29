@@ -10,8 +10,7 @@
 }
 
 .popup-container {
-    width: 800px;
-    max-width: 90vw;
+    width: 700px;
     background: #fff;
     border-radius: 12px;
     padding: 16px 20px;
@@ -31,13 +30,12 @@
 }
 
 .popup-close {
-
     cursor: pointer;
 
     .ic{
         display: block;
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
 
         &.ic-close{
            background: url("../public/img/ic_close.svg")no-repeat center / cover;
@@ -47,6 +45,8 @@
 
 .popup-body {
     margin-bottom: 16px;
+    max-height: 600px;
+    overflow-y: auto;
 }
 
 .popup-footer {

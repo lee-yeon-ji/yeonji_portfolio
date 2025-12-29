@@ -92,7 +92,7 @@ export default function Project() {
         return (
             <button onClick={() => setFilter(name)}
                     className={`text-white rounded-full px-5 py-2 transition-all duration-300 max-sm:w-full max-sm:text-xs
-          ${isActive ? "bg-[#4e4e4e] scale-105" : "bg-transparent hover:bg-[#4e4e4e] hover:scale-105"}`}
+          ${isActive ? "bg-[#4e4e4e]" : "bg-transparent hover:bg-[#4e4e4e] hover:scale-105"}`}
             >
                 {name}
             </button>
@@ -135,7 +135,7 @@ export default function Project() {
             </div>
 
             {/*필터 버튼*/}
-            <div className="flex justify-center">
+            <div className="flex justify-center ">
                 <div
                     className=" w-fit flex gap-2 items-center justify-center rounded-full px-4 py-3 bg-gray-300 dark:bg-gray-700 max-sm:w-full">
                     <CategoryButton name={"ALL"}/>
