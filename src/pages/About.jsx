@@ -24,6 +24,9 @@ export default function About() {
                         <span className="">2026년 1회차 정보처리기사 실기 준비중</span>
                     </div>
                 </div>
+
+
+
                 <div className="pt-14">
                     <div className="font-bold text-3xl">My tech stack</div>
                     <div className="pt-6">
