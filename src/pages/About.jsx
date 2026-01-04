@@ -25,6 +25,8 @@ export default function About() {
                     </div>
                 </div>
 
+
+
                 <div className="pt-14">
                     <div className="font-bold text-3xl">My tech stack</div>
                     <div className="pt-6">
