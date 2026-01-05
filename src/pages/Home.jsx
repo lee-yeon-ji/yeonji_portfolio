@@ -12,15 +12,15 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="grid grid-cols-2 gap-14 max-w-7xl mx-auto max-h-full text-gray-900 dark:text-white">
+        <div className="grid grid-cols-1 flex-1 gap-14 max-w-7xl max-h-full h-full pl-5 text-gray-900 lg:grid-cols-2 lg: max-w-auto lg:mx-auto dark:text-white" >
 
-            <div>
-                <img src="/img/img_home_bg.jpg" alt="img" />
+            <div className="lg:flex hidden">
+                <img  src="/img/img_home_bg.jpg" alt="img" />
             </div>
-            <div className="flex flex-col justify-center">
-                <h1 className="font-bold text-8xl">LEE YEON JI</h1>
+            <div className="flex flex-col justify-center align-center">
+                <h1 className="font-bold text-5xl lg:text-8xl pb-14">LEE YEONJI</h1>
 
-                <div className="flex gap-4 text-3xl pt-14">
+                <div className="flex gap-4 text-2 lg:text-3xl mb-14 ">
                     <div>Creative</div>
                     <div style={{ display: "flex", gap: "8px", perspective: "600px" }}>
                         {words[currentWordIndex].split("").map((char, idx) => (
@@ -39,9 +39,9 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="pt-14">
+                <div className="w-full  ">
                     <a
-                        className="bg-black dark:bg-white text-white dark:text-black px-4 py-4 text-3xl rounded shadow hover:shadow-lg hover:bg-white hover:text-black dark:hover:bg-gray-700 dark:hover:text-white hover:border-black transition duration-200"
+                        className=" text-2xl bg-black dark:bg-white text-white dark:text-black px-4 py-4 lg:text-3xl rounded shadow hover:shadow-lg hover:bg-white hover:text-black dark:hover:bg-gray-700 dark:hover:text-white hover:border-black transition duration-200 "
                         href="/project"
                     >
                         go project!

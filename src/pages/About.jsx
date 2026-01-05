@@ -2,14 +2,14 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function About() {
     return (
-        <div className="flex opacity-1 max-w-5xl mx-auto text-gray-900 dark:text-white">
-            <div className="">
+        <div className="lg:flex-row  flex flex-col opacity-1 max-w-5xl lg:mx-auto text-gray-900 dark:text-white">
+            <div className="hidden lg:block lg:w-1/2">
                 <div className="max-w-lg mx-auto">
                     <img src="/img/img_portfolio.jpg" alt="img"/>
                 </div>
             </div>
 
-            <div className="flex-1 min-w-0 pt-14 pl-5">
+            <div className=" flex-1 min-w-0 pt-14 pl-5">
                 <div >
                     <div className="font-bold text-3xl">ABOUT ME</div>
                     <div className="pt-6">
