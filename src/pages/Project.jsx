@@ -13,8 +13,9 @@ export default function Project() {
             category: "JS",
             img: "/img/img_project1.png",
             github: "https://github.com/lee-yeon-ji/yeonji_portfolio",
-            description: "저의 포트폴리오입니다. 주요 페이지는 About,Project,Board(게시판)으로 구성되어 있고 게시판 페이지는 파이어베이스를 활용하여 누구에게나 로그인을 안하고 이용 할 수 있도록 만들어봤습니다.",
-            skills: ["React", "react-router", "styled-components", "Firebase"]
+            description: "저의 포트폴리오입니다. 주요 페이지는 About, Project 으로 구성되어 있고 Vercel을 이용해 배포하였습니다. ",
+            skills: ["React", "react-router", "styled-components", "Vercel", "TypeScript"],
+            site: "https://yeonji-portfolio.vercel.app/"
         },
         {
             id: 2,
@@ -22,8 +23,9 @@ export default function Project() {
             category: "REACT",
             img: "/img/img_project2.png",
             github: "https://github.com/lee-yeon-ji/react-study",
-            description: "Netflix 클론 프로젝트입니다.",
-            skills: ["React", "API Integration", "Styled Components"]
+            description: "React,TypeScript를 활용한 넷플릭스 클론코딩 입니다. Movie,Tv,Search 페이지로 으로 구성 되어있습니다. 반응형으로 만들었습니다.",
+            site: "",
+            skills: ["React", "swiper", "Styled Components", "react - router"]
         },
         {
             id: 3,
@@ -197,6 +199,7 @@ export default function Project() {
                             description={selectedProject?.description}
                             skills={selectedProject?.skills}
                             site={selectedProject?.site}
+                            github={selectedProject?.github}
                         />
 
 

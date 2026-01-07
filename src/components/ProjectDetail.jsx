@@ -27,6 +27,7 @@ export default function ProjectDetail({ category, description, skills, site }) {
                 </a>
             </div>
 
+
         </div>
 
     );
