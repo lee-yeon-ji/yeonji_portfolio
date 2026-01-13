@@ -23,7 +23,7 @@ export default function Project() {
             category: "REACT",
             img: "/img/img_project2.png",
             github: "https://github.com/lee-yeon-ji/react-study",
-            description: "React,TypeScript를 활용한 넷플릭스 클론코딩 입니다. Movie,Tv,Search 페이지로 으로 구성 되어있습니다. 반응형으로 만들었습니다.",
+            description: "React를 활용한 넷플릭스 클론코딩 입니다. Movie,Tv,Search 페이지로 으로 구성 되어있는 반응형입니다.",
             site: "",
             skills: ["React", "swiper", "Styled Components", "react - router"]
         },
