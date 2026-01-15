@@ -14,7 +14,7 @@ function Popup({ isOpen, title, image, children, onClose}) {
 
     return (
         <div className="popup-overlay" onClick={handleOverlayClick}>
-            <div className="popup-container" role="dialog" aria-modal="true">
+            <div className="popup-container dark:bg-gray-900" role="dialog" aria-modal="true">
                 <header className="popup-header">
                     <h2 className="popup-title">{title}</h2>
                     <button className="popup-close" onClick={onClose}>
@@ -24,8 +24,8 @@ function Popup({ isOpen, title, image, children, onClose}) {
 
                 <main className="popup-body">
                     {image && (
-                        <div className="popup-image-container">
-                            <img src={image} alt={title} className="popup-image" />
+                        <div className="popup-image-container ">
+                            <img src={image} alt={title} className="popup-image " />
                         </div>
                     )}
                     {children}
@@ -40,3 +40,4 @@ function Popup({ isOpen, title, image, children, onClose}) {
 
 
 export default Popup;
+

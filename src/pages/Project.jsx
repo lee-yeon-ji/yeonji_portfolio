@@ -10,11 +10,11 @@ export default function Project() {
         {
             id: 1,
             name: "portfolio",
-            category: "JS",
+            category: "REACT",
             img: "/img/img_project1.png",
             github: "https://github.com/lee-yeon-ji/yeonji_portfolio",
             description: "저의 포트폴리오입니다. 주요 페이지는 About, Project 으로 구성되어 있고 Vercel을 이용해 배포하였습니다. ",
-            skills: ["React", "react-router", "styled-components", "Vercel", "TypeScript"],
+            skills: ["React", "react-router", "styled-components", "TypeScript"],
             site: "https://yeonji-portfolio.vercel.app/"
         },
         {
@@ -24,54 +24,101 @@ export default function Project() {
             img: "/img/img_project2.png",
             github: "https://github.com/lee-yeon-ji/react-study",
             description: "React를 활용한 넷플릭스 클론코딩 입니다. Movie,Tv,Search 페이지로 으로 구성 되어있는 반응형입니다.",
-            site: "",
-            skills: ["React", "swiper", "Styled Components", "react - router"]
+            skills: ["React", "swiper", "Styled Components", "react - router"],
+            site: "https://net-flix-clone-seven-mu.vercel.app/"
         },
         {
             id: 3,
             name: "LG Jammy",
             category: "PUBLISHING",
             img: "/img/img_project3.png",
-            site: "https://jammy.lge.co.kr/event",
+            github: "",
             description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
-            skills: ["JavaScript", "HTML", "CSS"]
+            skills: ["JavaScript", "HTML", "CSS"],
+            site: ""
         },
         {
             id: 4,
             name: "LG 전자 스스로 해결",
             category: "PUBLISHING",
             img: "/img/img_project4.png",
-            github: "https://github.com/username/react-dashboard",
-            description: "React 대시보드 프로젝트입니다.",
-            skills: ["React", "Chart.js", "Material-UI"]
+            github: "",
+            description: "LG 전자 스스로 해결 페이지 입니다.",
+            skills: ["JavaScript", "HTML", "CSS"],
+            site: ""
         },
         {
             id: 5,
-            name: "asil",
+            name: "LG Jammy",
             category: "PUBLISHING",
-            img: "/img/img_project1.png",
-            github: "https://github.com/username/publishing-dashboard",
-            description: "Publishing 대시보드 프로젝트입니다.",
-            skills: ["HTML", "CSS", "JavaScript"]
+            img: "/img/img_project5.png",
+            github: "",
+            description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
+            skills: ["HTML", "CSS", "JavaScript", "Responsive Design", "Swiper"],
+            site: ""
         },
         {
             id: 6,
-            name: "Publishing Project",
+            name: "LG Jammy",
             category: "PUBLISHING",
-            img: "/img/img_project1.png",
-            github: "https://github.com/username/publishing-project",
-            description: "Publishing 프로젝트입니다.",
-            skills: ["HTML", "CSS", "Responsive Design"]
+            img: "/img/img_project6.png",
+            github: "",
+            description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
+            skills: ["HTML", "CSS", "Responsive Design"],
+            site: ""
         },
         {
             id: 7,
-            name: "Pubble item",
+            name: "LG Jammy-테크 메거진",
             category: "PUBLISHING",
-            img: "/img/img_project1.png",
-            github: "https://github.com/username/pubble-item",
-            description: "Pubble item 프로젝트입니다.",
-            skills: ["HTML", "CSS", "JavaScript"]
+            img: "/img/img_project7.png",
+            github: "",
+            description: "jammy 테크 메거진 페이지입니다. HTML, CSS로 메거진 반응형 페이지 구현하였습니다. ",
+            skills: ["HTML", "CSS", "Responsive Design"],
+            site: ""
         },
+
+        {
+            id: 8,
+            name: "(주)아몬드 회사 홈페이지",
+            category: "PUBLISHING, JavaScript",
+            img: "/img/img_project8.png",
+            github: "",
+            description: "(주)아몬드 회사 홈페이지 입니다.",
+            skills: ["HTML", "CSS", "JavaScript", "Responsive Design","Swiper"],
+            site: "https://www.almondpet.com/ko/main"
+        },
+        {
+            id: 9,
+            name: "이음기프트 홈페이지",
+            category: "PUBLISHING, JavaScript",
+            img: "/img/img_project9.png",
+            github: "",
+            description: "이음기프트 회사 홈페이지 입니다.",
+            skills: ["HTML", "CSS", "JavaScript", "Responsive Design", "Swiper"],
+            site: "https://www.ium-gift.com/"
+        },
+        {
+            id: 10,
+            name: "아실 홈페이지",
+            category: "PUBLISHING, JavaScript",
+            img: "/img/img_project10.png",
+            github: "",
+            description: "아실 모바일 입니다.",
+            skills: ["HTML", "CSS", "JavaScript", "Responsive Design", "Swiper"],
+            site: ""
+        },
+        {
+            id: 10,
+            name: "나비엔 하우스",
+            category: "PUBLISHING",
+            img: "/img/img_project11.png",
+            github: "",
+            description: "나비엔 홈페이지에 있는 단꿈상점 이벤트 페이지 입니다.",
+            skills: ["HTML", "CSS", "Responsive Design" ],
+            site: ""
+        },
+
     ];
 
 
@@ -96,7 +143,7 @@ export default function Project() {
 
         return (
             <button onClick={() => setFilter(name)}
-                    className={`text-white rounded-full px-5 py-2 transition-all duration-300 max-sm:w-full max-sm:text-xs
+                    className={`text-white rounded-full px-2 py-2 transition-all duration-300 max-sm:w-full max-sm:text-xs sm:px-5
           ${isActive ? "bg-[#4e4e4e]" : "bg-transparent hover:bg-[#4e4e4e] hover:scale-105"}`}
             >
                 {name}
