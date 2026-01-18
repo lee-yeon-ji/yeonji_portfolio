@@ -9,7 +9,7 @@ export default function Home() {
             setCurrentWordIndex((prev) => (prev + 1) % words.length);
         }, 3000);
         return () => clearInterval(interval);
-    }, []);
+    }, [words.length]);
 
     return (
         <div className="grid grid-cols-1 flex-1 gap-14 max-w-7xl max-h-full h-full pl-5 text-gray-900 lg:grid-cols-2 lg: max-w-auto lg:mx-auto dark:text-white" >
