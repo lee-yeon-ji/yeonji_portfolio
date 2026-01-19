@@ -108,17 +108,6 @@ export default function Project() {
             skills: ["HTML", "CSS", "JavaScript", "Responsive Design", "Swiper"],
             site: ""
         },
-        {
-            id: 10,
-            name: "나비엔 하우스",
-            category: "PUBLISHING",
-            img: "/img/img_project11.png",
-            github: "",
-            description: "나비엔 홈페이지에 있는 단꿈상점 이벤트 페이지 입니다.",
-            skills: ["HTML", "CSS", "Responsive Design" ],
-            site: ""
-        },
-
     ];
 
 
