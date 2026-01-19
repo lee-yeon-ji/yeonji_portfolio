@@ -81,7 +81,7 @@ export default function Project() {
         {
             id: 8,
             name: "(주)아몬드 회사 홈페이지",
-            category: "PUBLISHING, JavaScript",
+            category: "PUBLISHING",
             img: "/img/img_project8.png",
             github: "",
             description: "(주)아몬드 회사 홈페이지 입니다.",
@@ -91,7 +91,7 @@ export default function Project() {
         {
             id: 9,
             name: "이음기프트 홈페이지",
-            category: "PUBLISHING, JavaScript",
+            category: "JS",
             img: "/img/img_project9.png",
             github: "",
             description: "이음기프트 회사 홈페이지 입니다.",
@@ -101,7 +101,7 @@ export default function Project() {
         {
             id: 10,
             name: "아실 홈페이지",
-            category: "PUBLISHING, JavaScript",
+            category: "JS",
             img: "/img/img_project10.png",
             github: "",
             description: "아실 모바일 입니다.",
