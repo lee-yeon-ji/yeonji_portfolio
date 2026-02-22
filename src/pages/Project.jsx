@@ -10,7 +10,7 @@ export default function Project() {
         {
             id: 1,
             name: "portfolio",
-            category: "REACT",
+            category: "Frontend",
             img: "/img/img_project1.png",
             github: "https://github.com/lee-yeon-ji/yeonji_portfolio",
             description: "저의 포트폴리오입니다. 주요 페이지는 About, Project 으로 구성되어 있고 Vercel을 이용해 배포하였습니다. ",
@@ -22,7 +22,7 @@ export default function Project() {
         {
             id: 2,
             name: "Netflix",
-            category: "REACT",
+            category: "Frontend",
             img: "/img/img_project2.png",
             github: "https://github.com/lee-yeon-ji/react-study",
             description: "React를 활용한 넷플릭스 클론코딩 입니다. Movie,Tv,Search 페이지로 으로 구성 되어있는 반응형입니다.",
@@ -32,7 +32,7 @@ export default function Project() {
         {
             id: 3,
             name: "LG Jammy",
-            category: "PUBLISHING",
+            category: "Publishing",
             img: "/img/img_project3.png",
             github: "",
             description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
@@ -42,7 +42,7 @@ export default function Project() {
         {
             id: 4,
             name: "LG 전자 스스로 해결",
-            category: "PUBLISHING",
+            category: "Publishing",
             img: "/img/img_project4.png",
             github: "",
             description: "LG 전자 스스로 해결 페이지 입니다.",
@@ -52,7 +52,7 @@ export default function Project() {
         {
             id: 5,
             name: "LG Jammy",
-            category: "PUBLISHING",
+            category: "Publishing",
             img: "/img/img_project5.png",
             github: "",
             description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
@@ -62,7 +62,7 @@ export default function Project() {
         {
             id: 6,
             name: "LG Jammy",
-            category: "PUBLISHING",
+            category: "Publishing",
             img: "/img/img_project6.png",
             github: "",
             description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
@@ -72,7 +72,7 @@ export default function Project() {
         {
             id: 7,
             name: "LG Jammy-테크 메거진",
-            category: "PUBLISHING",
+            category: "Publishing",
             img: "/img/img_project7.png",
             github: "",
             description: "jammy 테크 메거진 페이지입니다. HTML, CSS로 메거진 반응형 페이지 구현하였습니다. ",
@@ -83,7 +83,7 @@ export default function Project() {
         {
             id: 8,
             name: "(주)아몬드 회사 홈페이지",
-            category: "PUBLISHING",
+            category: "Publishing",
             img: "/img/img_project8.png",
             github: "",
             description: "(주)아몬드 회사 홈페이지 입니다.",
@@ -92,8 +92,8 @@ export default function Project() {
         },
         {
             id: 9,
-            name: "이음기프트 홈페이지",
-            category: "JS",
+            name: "이음기프트",
+            category: "Publishing",
             img: "/img/img_project9.png",
             github: "",
             description: "이음기프트 회사 홈페이지 입니다.",
@@ -102,8 +102,8 @@ export default function Project() {
         },
         {
             id: 10,
-            name: "아실 홈페이지",
-            category: "JS",
+            name: "아실",
+            category: "Publishing",
             img: "/img/img_project10.png",
             github: "",
             description: "아실 모바일 입니다.",
@@ -182,9 +182,8 @@ export default function Project() {
                 <div
                     className=" w-fit flex gap-2 items-center justify-center rounded-full px-4 py-3 bg-gray-300 dark:bg-gray-700 max-sm:w-full">
                     <CategoryButton name={"ALL"}/>
-                    <CategoryButton name={"PUBLISHING"}/>
-                    <CategoryButton name={"JS"}/>
-                    <CategoryButton name={"REACT"}/>
+                    <CategoryButton name={"Publishing"}/>
+                    <CategoryButton name={"Frontend"}/>
 
                 </div>
             </div>
