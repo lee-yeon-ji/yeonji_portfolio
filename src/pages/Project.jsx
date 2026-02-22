@@ -17,6 +17,8 @@ export default function Project() {
             skills: ["React", "react-router", "styled-components", "TypeScript"],
             site: "https://yeonji-portfolio.vercel.app/"
         },
+
+
         {
             id: 2,
             name: "Netflix",
