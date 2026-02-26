@@ -1,5 +1,3 @@
-import { motion, AnimatePresence } from "framer-motion";
-
 export default function About() {
     return (
         <div className="lg:flex-row  flex flex-col opacity-1 max-w-5xl lg:mx-auto text-gray-900 dark:text-white">

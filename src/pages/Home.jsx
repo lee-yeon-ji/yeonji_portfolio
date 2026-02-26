@@ -9,13 +9,13 @@ export default function Home() {
             setCurrentWordIndex((prev) => (prev + 1) % words.length);
         }, 3000);
         return () => clearInterval(interval);
-    }, []);
+    }, [words.length]);
 
     return (
         <div className="grid grid-cols-1 flex-1 gap-14 max-w-7xl max-h-full h-full pl-5 text-gray-900 lg:grid-cols-2 lg: max-w-auto lg:mx-auto dark:text-white" >
 
             <div className="lg:flex hidden">
-                <img  src="/img/img_home_bg.jpg" alt="img" />
+                <img  src="/img/developer_1.png" alt="img" />
             </div>
             <div className="flex flex-col justify-center align-center">
                 <h1 className="font-bold text-5xl lg:text-8xl pb-14">LEE YEONJI</h1>

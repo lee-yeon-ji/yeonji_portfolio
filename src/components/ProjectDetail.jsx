@@ -17,6 +17,7 @@ export default function ProjectDetail({ category, description, skills, site }) {
                 </div>
             </div>
 
+
             <div className="flex">
                 <p className="font-semibold ">Site</p>
                 <a
