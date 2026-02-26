@@ -239,6 +239,7 @@ export default function Project() {
                                 </motion.li>
                             ))}
                         </motion.ul>
+
                     )}
                 </AnimatePresence>
             </div>
