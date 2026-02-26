@@ -9,9 +9,9 @@ export default function Project() {
     const projects = [
         {
             id: 1,
-            name: "portfolio",
-            category: "REACT",
-            img: "/img/img_project1.png",
+            name: "SNS",
+            category: "frontend",
+            img: "/img/img_project.png",
             github: "https://github.com/lee-yeon-ji/yeonji_portfolio",
             description: "저의 포트폴리오입니다. 주요 페이지는 About, Project 으로 구성되어 있고 Vercel을 이용해 배포하였습니다. ",
             skills: ["React", "react-router", "styled-components", "TypeScript"],
@@ -19,8 +19,18 @@ export default function Project() {
         },
         {
             id: 2,
+            name: "portfolio",
+            category: "frontend",
+            img: "/img/img_project1.png",
+            github: "https://github.com/lee-yeon-ji/yeonji_portfolio",
+            description: "저의 포트폴리오입니다. 주요 페이지는 About, Project 으로 구성되어 있고 Vercel을 이용해 배포하였습니다. ",
+            skills: ["React", "react-router", "styled-components", "TypeScript"],
+            site: "https://yeonji-portfolio.vercel.app/"
+        },
+        {
+            id: 3,
             name: "Netflix",
-            category: "REACT",
+            category: "frontend",
             img: "/img/img_project2.png",
             github: "https://github.com/lee-yeon-ji/react-study",
             description: "React를 활용한 넷플릭스 클론코딩 입니다. Movie,Tv,Search 페이지로 으로 구성 되어있는 반응형입니다.",
@@ -28,9 +38,9 @@ export default function Project() {
             site: "https://net-flix-clone-seven-mu.vercel.app/"
         },
         {
-            id: 3,
+            id: 4,
             name: "LG Jammy",
-            category: "PUBLISHING",
+            category: "publishing",
             img: "/img/img_project3.png",
             github: "",
             description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
@@ -38,9 +48,9 @@ export default function Project() {
             site: ""
         },
         {
-            id: 4,
+            id: 5,
             name: "LG 전자 스스로 해결",
-            category: "PUBLISHING",
+            category: "publishing",
             img: "/img/img_project4.png",
             github: "",
             description: "LG 전자 스스로 해결 페이지 입니다.",
@@ -48,7 +58,7 @@ export default function Project() {
             site: ""
         },
         {
-            id: 5,
+            id: 6,
             name: "LG Jammy",
             category: "PUBLISHING",
             img: "/img/img_project5.png",
@@ -58,9 +68,9 @@ export default function Project() {
             site: ""
         },
         {
-            id: 6,
+            id: 7,
             name: "LG Jammy",
-            category: "PUBLISHING",
+            category: "publishing",
             img: "/img/img_project6.png",
             github: "",
             description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
@@ -68,9 +78,9 @@ export default function Project() {
             site: ""
         },
         {
-            id: 7,
+            id: 8,
             name: "LG Jammy-테크 메거진",
-            category: "PUBLISHING",
+            category: "publishing",
             img: "/img/img_project7.png",
             github: "",
             description: "jammy 테크 메거진 페이지입니다. HTML, CSS로 메거진 반응형 페이지 구현하였습니다. ",
@@ -79,9 +89,9 @@ export default function Project() {
         },
 
         {
-            id: 8,
-            name: "(주)아몬드 회사 홈페이지",
-            category: "PUBLISHING, JavaScript",
+            id: 9,
+            name: "(주)아몬드",
+            category: "publishing",
             img: "/img/img_project8.png",
             github: "",
             description: "(주)아몬드 회사 홈페이지 입니다.",
@@ -89,9 +99,9 @@ export default function Project() {
             site: "https://www.almondpet.com/ko/main"
         },
         {
-            id: 9,
-            name: "이음기프트 홈페이지",
-            category: "PUBLISHING, JavaScript",
+            id: 10,
+            name: "이음기프트",
+            category: "publishing",
             img: "/img/img_project9.png",
             github: "",
             description: "이음기프트 회사 홈페이지 입니다.",
@@ -99,9 +109,9 @@ export default function Project() {
             site: "https://www.ium-gift.com/"
         },
         {
-            id: 10,
-            name: "아실 홈페이지",
-            category: "PUBLISHING, JavaScript",
+            id: 11,
+            name: "아실",
+            category: "publishing",
             img: "/img/img_project10.png",
             github: "",
             description: "아실 모바일 입니다.",
@@ -109,9 +119,9 @@ export default function Project() {
             site: ""
         },
         {
-            id: 10,
+            id: 12,
             name: "나비엔 하우스",
-            category: "PUBLISHING",
+            category: "publishing",
             img: "/img/img_project11.png",
             github: "",
             description: "나비엔 홈페이지에 있는 단꿈상점 이벤트 페이지 입니다.",
@@ -191,9 +201,8 @@ export default function Project() {
                 <div
                     className=" w-fit flex gap-2 items-center justify-center rounded-full px-4 py-3 bg-gray-300 dark:bg-gray-700 max-sm:w-full">
                     <CategoryButton name={"ALL"}/>
-                    <CategoryButton name={"PUBLISHING"}/>
-                    <CategoryButton name={"JS"}/>
-                    <CategoryButton name={"REACT"}/>
+                    <CategoryButton name={"publishing"}/>
+                    <CategoryButton name={"frontend"}/>
 
                 </div>
             </div>
