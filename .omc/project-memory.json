@@ -1,0 +1,251 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1772100379639,
+  "projectRoot": "C:\\Users\\duswl\\portfolio",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.2.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.0",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": "npm test",
+    "lintCommand": null,
+    "devCommand": "npm run start",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": "ES modules",
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "build": {
+      "path": "build",
+      "purpose": "Build output",
+      "fileCount": 4,
+      "lastAccessed": 1772100379594,
+      "keyFiles": [
+        "asset-manifest.json",
+        "index.html",
+        "manifest.json",
+        "robots.txt"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 3,
+      "lastAccessed": 1772100379611,
+      "keyFiles": [
+        "index.html",
+        "manifest.json",
+        "robots.txt"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 8,
+      "lastAccessed": 1772100379611,
+      "keyFiles": [
+        "App.css",
+        "App.jsx",
+        "App.test.js",
+        "index.css",
+        "index.js"
+      ]
+    },
+    "build\\static": {
+      "path": "build\\static",
+      "purpose": "Static files",
+      "fileCount": 0,
+      "lastAccessed": 1772100379611,
+      "keyFiles": []
+    },
+    "onbite-exam\\public": {
+      "path": "onbite-exam\\public",
+      "purpose": "Public files",
+      "fileCount": 1,
+      "lastAccessed": 1772100379612,
+      "keyFiles": [
+        "vite.svg"
+      ]
+    },
+    "onbite-exam\\src": {
+      "path": "onbite-exam\\src",
+      "purpose": "Source code",
+      "fileCount": 5,
+      "lastAccessed": 1772100379613,
+      "keyFiles": [
+        "App.css",
+        "App.tsx",
+        "index.css"
+      ]
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 7,
+      "lastAccessed": 1772100379613,
+      "keyFiles": [
+        "CategoryFilter.js",
+        "dark.jsx",
+        "Header.jsx"
+      ]
+    },
+    "src\\pages": {
+      "path": "src\\pages",
+      "purpose": "Page components",
+      "fileCount": 4,
+      "lastAccessed": 1772100379614,
+      "keyFiles": [
+        "About.jsx",
+        "ErrorPage.jsx",
+        "Home.jsx"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src\\pages\\Home.jsx",
+      "accessCount": 6,
+      "lastAccessed": 1772101897032,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 6,
+      "lastAccessed": 1772102197971,
+      "type": "directory"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 6,
+      "lastAccessed": 1772102767872,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Header.jsx",
+      "accessCount": 5,
+      "lastAccessed": 1772101897048,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\About.jsx",
+      "accessCount": 3,
+      "lastAccessed": 1772101897169,
+      "type": "file"
+    },
+    {
+      "path": "src\\index.js",
+      "accessCount": 3,
+      "lastAccessed": 1772101926101,
+      "type": "file"
+    },
+    {
+      "path": "src\\index.css",
+      "accessCount": 3,
+      "lastAccessed": 1772101926168,
+      "type": "file"
+    },
+    {
+      "path": "postcss.config.js",
+      "accessCount": 3,
+      "lastAccessed": 1772101977340,
+      "type": "file"
+    },
+    {
+      "path": "tailwind.config.js",
+      "accessCount": 2,
+      "lastAccessed": 1772101926036,
+      "type": "file"
+    },
+    {
+      "path": "src\\App.jsx",
+      "accessCount": 2,
+      "lastAccessed": 1772101935206,
+      "type": "file"
+    },
+    {
+      "path": "public\\index.html",
+      "accessCount": 2,
+      "lastAccessed": 1772102134221,
+      "type": "file"
+    },
+    {
+      "path": "src\\context\\ThemeContext.jsx",
+      "accessCount": 2,
+      "lastAccessed": 1772102134266,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ThemeToggle.jsx",
+      "accessCount": 2,
+      "lastAccessed": 1772102134324,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\Project.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1772101079676,
+      "type": "file"
+    },
+    {
+      "path": "src\\App.css",
+      "accessCount": 1,
+      "lastAccessed": 1772101935228,
+      "type": "file"
+    },
+    {
+      "path": "src\\Popup.css",
+      "accessCount": 1,
+      "lastAccessed": 1772101935279,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Popup.js",
+      "accessCount": 1,
+      "lastAccessed": 1772101935333,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
