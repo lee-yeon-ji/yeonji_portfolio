@@ -10,27 +10,27 @@ export default function Project() {
         {
             id: 1,
             name: "SNS",
-            category: "frontend",
+            category: "FRONTEND",
             img: "/img/img_project.png",
-            github: "https://github.com/lee-yeon-ji/yeonji_portfolio",
-            description: "저의 포트폴리오입니다. 주요 페이지는 About, Project 으로 구성되어 있고 Vercel을 이용해 배포하였습니다. ",
-            skills: ["React", "react-router", "styled-components", "TypeScript"],
-            site: "https://yeonji-portfolio.vercel.app/"
+            github: "https://github.com/lee-yeon-ji/SNS_Project",
+            description: "React.js, TypeScript, Supabase를 이용한 SNS 서비스입니다. 사용자가 로그인 후, 게시글을 작성하고, 다른 사용자의 게시글을 볼 수 있습니다.",
+            skills: ["React.js", "react-router", "Zustand", "Tanstack Query", "TypeScript"],
+            site: "https://sns-project-one.vercel.app/"
         },
         {
             id: 2,
             name: "portfolio",
-            category: "frontend",
+            category: "FRONTEND",
             img: "/img/img_project1.png",
             github: "https://github.com/lee-yeon-ji/yeonji_portfolio",
-            description: "저의 포트폴리오입니다. 주요 페이지는 About, Project 으로 구성되어 있고 Vercel을 이용해 배포하였습니다. ",
+            description: "포트폴리오입니다. 주요 페이지는 About, Project 으로 구성되어 있고 현재 작업한 프로젝트를 보여줍니다.",
             skills: ["React", "react-router", "styled-components", "TypeScript"],
             site: "https://yeonji-portfolio.vercel.app/"
         },
         {
             id: 3,
             name: "Netflix",
-            category: "frontend",
+            category: "FRONTEND",
             img: "/img/img_project2.png",
             github: "https://github.com/lee-yeon-ji/react-study",
             description: "React를 활용한 넷플릭스 클론코딩 입니다. Movie,Tv,Search 페이지로 으로 구성 되어있는 반응형입니다.",
@@ -39,59 +39,18 @@ export default function Project() {
         },
         {
             id: 4,
-            name: "LG Jammy",
-            category: "publishing",
-            img: "/img/img_project3.png",
+            name: "(주)아몬드",
+            category: "PUBLISHING",
+            img: "/img/img_project4.png",
             github: "",
-            description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
-            skills: ["JavaScript", "HTML", "CSS"],
-            site: ""
+            description: "(주)아몬드 회사 홈페이지 입니다.",
+            skills: ["HTML", "CSS", "JavaScript", "Responsive Design","Swiper"],
+            site: "https://app.convave.com/"
         },
         {
             id: 5,
-            name: "LG 전자 스스로 해결",
-            category: "publishing",
-            img: "/img/img_project4.png",
-            github: "",
-            description: "LG 전자 스스로 해결 페이지 입니다.",
-            skills: ["JavaScript", "HTML", "CSS"],
-            site: ""
-        },
-        {
-            id: 6,
-            name: "LG Jammy",
-            category: "PUBLISHING",
-            img: "/img/img_project5.png",
-            github: "",
-            description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
-            skills: ["HTML", "CSS", "JavaScript", "Responsive Design", "Swiper"],
-            site: ""
-        },
-        {
-            id: 7,
-            name: "LG Jammy",
-            category: "publishing",
-            img: "/img/img_project6.png",
-            github: "",
-            description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
-            skills: ["HTML", "CSS", "Responsive Design"],
-            site: ""
-        },
-        {
-            id: 8,
-            name: "LG Jammy-테크 메거진",
-            category: "publishing",
-            img: "/img/img_project7.png",
-            github: "",
-            description: "jammy 테크 메거진 페이지입니다. HTML, CSS로 메거진 반응형 페이지 구현하였습니다. ",
-            skills: ["HTML", "CSS", "Responsive Design"],
-            site: ""
-        },
-
-        {
-            id: 9,
             name: "(주)아몬드",
-            category: "publishing",
+            category: "PUBLISHING",
             img: "/img/img_project8.png",
             github: "",
             description: "(주)아몬드 회사 홈페이지 입니다.",
@@ -99,9 +58,9 @@ export default function Project() {
             site: "https://www.almondpet.com/ko/main"
         },
         {
-            id: 10,
+            id: 6,
             name: "이음기프트",
-            category: "publishing",
+            category: "PUBLISHING",
             img: "/img/img_project9.png",
             github: "",
             description: "이음기프트 회사 홈페이지 입니다.",
@@ -109,9 +68,9 @@ export default function Project() {
             site: "https://www.ium-gift.com/"
         },
         {
-            id: 11,
+            id: 7,
             name: "아실",
-            category: "publishing",
+            category: "PUBLISHING",
             img: "/img/img_project10.png",
             github: "",
             description: "아실 모바일 입니다.",
@@ -119,15 +78,37 @@ export default function Project() {
             site: ""
         },
         {
-            id: 12,
+            id: 8,
             name: "나비엔 하우스",
-            category: "publishing",
+            category: "PUBLISHING",
             img: "/img/img_project11.png",
             github: "",
             description: "나비엔 홈페이지에 있는 단꿈상점 이벤트 페이지 입니다.",
             skills: ["HTML", "CSS", "Responsive Design" ],
             site: ""
         },
+        {
+            id: 9,
+            name: "LG Jammy",
+            category: "PUBLISHING",
+            img: "/img/img_project3.png",
+            github: "",
+            description: "jammy 이벤트 페이지입니다. HTML, CSS, JavaScript로 이벤트 페이지 구현하였습니다. ",
+            skills: ["JavaScript", "HTML", "CSS"],
+            site: ""
+        },
+        {
+            id: 10,
+            name: "LG 전자 스스로 해결",
+            category: "PUBLISHING",
+            img: "/img/img_project14.png",
+            github: "",
+            description: "LG 전자 스스로 해결 페이지 입니다.",
+            skills: ["JavaScript", "HTML", "CSS"],
+            site: ""
+        }
+
+
 
     ];
 
@@ -162,20 +143,20 @@ export default function Project() {
     };
 
 
-    const ProjectCard = ({name, img, onClick}) => {
+    const ProjectCard = ({name, img, onClick, index}) => {
         return (
             <>
                 <motion.div
                     layout
                     onClick={onClick}
-                    initial={{opacity: 0, y: 20}}
-                    animate={{opacity: 1, y: 0}}
-                    exit={{opacity: 0, y: -20}}
-                    transition={{duration: 0.3}}
-                    className="border-2 border-slate-500 dark:border-slate-400 rounded-2xl overflow-hidden cursor-pointer flex flex-col hover:shadow-xl hover:scale-[1.02] transition-all"
+                    initial={{opacity: 0}}
+                    animate={{opacity: 1}}
+                    exit={{opacity: 0}}
+                    transition={{duration: 0.4, delay: index * 0.05}}
+                    className="group rounded-2xl overflow-hidden cursor-pointer flex flex-col shadow-[0_0_8px_rgba(100,116,139,0.4)] dark:shadow-[0_0_8px_rgba(148,163,184,0.4)] hover:shadow-[0_4px_20px_rgba(0,0,0,0.12)] hover:scale-[1.02] transition-all"
                 >
-                    <div className="w-full h-80 p-4">
-                        <img src={img} alt={name} className="w-full h-full object-cover rounded-lg"/>
+                    <div className="w-full h-80 p-4 overflow-hidden">
+                        <img src={img} alt={name} className="w-full h-full object-contain rounded-lg group-hover:scale-[1.1] transition-transform duration-700"/>
                     </div>
                     <div className="p-4">
                         <span className="text-lg font-semibold text-gray-900 dark:text-white">{name}</span>
@@ -192,7 +173,7 @@ export default function Project() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 text-gray-900 dark:text-white">
 
             <div className="">
-                <h2 className="my-8 text-4xl md:text-5xl leading-10 text-center font-bold	sm:leading-12 lg:text-6xl">My
+                <h2 className=" my-8 text-4xl md:text-5xl leading-10 text-center font-bold	lg:text-6xl lg:leading-tight">My
                     Most<br/> Recent Project</h2>
             </div>
 
@@ -201,8 +182,8 @@ export default function Project() {
                 <div
                     className=" w-fit flex gap-2 items-center justify-center rounded-full px-4 py-3 bg-gray-300 dark:bg-gray-700 max-sm:w-full">
                     <CategoryButton name={"ALL"}/>
-                    <CategoryButton name={"publishing"}/>
-                    <CategoryButton name={"frontend"}/>
+                    <CategoryButton name={"PUBLISHING"}/>
+                    <CategoryButton name={"FRONTEND"}/>
 
                 </div>
             </div>
@@ -225,11 +206,12 @@ export default function Project() {
                             layout
                             className="grid grid-cols-1 gap-4 sm:grid-cols-2"
                         >
-                            {filteredProjects.map((project) => (
-                                <motion.li key={project.id} layout>
+                            {filteredProjects.map((project, index) => (
+                                <motion.li key={`${filter}-${project.id}`} layout>
                                     <ProjectCard
                                         name={project.name}
                                         img={project.img}
+                                        index={index}
                                         onClick={() => {
                                             setSelectedProject(project);   // 어떤 카드인지 저장
                                             setIsPopupOpen(true);          // 팝업 열기
@@ -263,19 +245,6 @@ export default function Project() {
                         />
 
 
-                        {selectedProject?.github && (
-                            <a
-                                href={selectedProject.github}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 dark:bg-gray-700 text-white rounded-lg hover:bg-gray-800 dark:hover:bg-gray-600 transition-colors mt-4"
-                            >
-                                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                    <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" />
-                                </svg>
-                                GitHub 보기
-                            </a>
-                        )}
                     </Popup>
                 )}
             </AnimatePresence>

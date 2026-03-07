@@ -1,7 +1,7 @@
 import React from 'react';
 
 function CategoryFilter({category, onChange}) {
-    const categories = ['All', 'Publishing', 'Frontend'];
+    const categories = ['All', 'PUBLISHING', 'FRONTEND'];
 
     return (
         <select className="rounded-full px-5 py-2 bg-transparent transition max-sm:w-full max-sm:text-xs"

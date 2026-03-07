@@ -15,7 +15,7 @@ export default function Header() {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
     return (
-        <div className="sticky top-0 bg-white dark:bg-gray-900 position-fixed w-full left-0 rigth-0 z-999 transition-colors duration-300">
+        <div className="sticky top-0 bg-white dark:bg-gray-900 position-fixed w-full left-0 rigth-0 z-50 transition-colors duration-300">
             <header className="max-w-7xl mx-auto bg-white dark:bg-gray-900">
                 <div className="flex justify-between items-center w-full h-16 font-bold text-2xl px-4 text-gray-900 dark:text-white">
                     <Link to='/' className="hover:text-gray-600 dark:hover:text-gray-300">yeonji</Link>

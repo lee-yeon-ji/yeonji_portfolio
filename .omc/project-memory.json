@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1772100379639,
+  "lastScanned": 1772782719528,
   "projectRoot": "C:\\Users\\duswl\\portfolio",
   "techStack": {
     "languages": [
@@ -34,7 +34,7 @@
     "lintCommand": null,
     "devCommand": "npm run start",
     "scripts": {
-      "start": "react-scripts start",
+      "start": "set PORT=4000 && react-scripts start",
       "build": "react-scripts build",
       "test": "react-scripts test",
       "eject": "react-scripts eject"
@@ -61,7 +61,7 @@
       "path": "build",
       "purpose": "Build output",
       "fileCount": 4,
-      "lastAccessed": 1772100379594,
+      "lastAccessed": 1772782719479,
       "keyFiles": [
         "asset-manifest.json",
         "index.html",
@@ -69,11 +69,24 @@
         "robots.txt"
       ]
     },
+    "onbite-exam": {
+      "path": "onbite-exam",
+      "purpose": null,
+      "fileCount": 9,
+      "lastAccessed": 1772782719499,
+      "keyFiles": [
+        "eslint.config.js",
+        "index.html",
+        "package.json",
+        "README.md",
+        "tsconfig.app.json"
+      ]
+    },
     "public": {
       "path": "public",
       "purpose": "Public files",
       "fileCount": 3,
-      "lastAccessed": 1772100379611,
+      "lastAccessed": 1772782719500,
       "keyFiles": [
         "index.html",
         "manifest.json",
@@ -84,7 +97,7 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 8,
-      "lastAccessed": 1772100379611,
+      "lastAccessed": 1772782719500,
       "keyFiles": [
         "App.css",
         "App.jsx",
@@ -97,14 +110,14 @@
       "path": "build\\static",
       "purpose": "Static files",
       "fileCount": 0,
-      "lastAccessed": 1772100379611,
+      "lastAccessed": 1772782719501,
       "keyFiles": []
     },
     "onbite-exam\\public": {
       "path": "onbite-exam\\public",
       "purpose": "Public files",
       "fileCount": 1,
-      "lastAccessed": 1772100379612,
+      "lastAccessed": 1772782719502,
       "keyFiles": [
         "vite.svg"
       ]
@@ -113,7 +126,7 @@
       "path": "onbite-exam\\src",
       "purpose": "Source code",
       "fileCount": 5,
-      "lastAccessed": 1772100379613,
+      "lastAccessed": 1772782719502,
       "keyFiles": [
         "App.css",
         "App.tsx",
@@ -124,7 +137,7 @@
       "path": "src\\components",
       "purpose": "UI components",
       "fileCount": 7,
-      "lastAccessed": 1772100379613,
+      "lastAccessed": 1772782719503,
       "keyFiles": [
         "CategoryFilter.js",
         "dark.jsx",
@@ -135,7 +148,7 @@
       "path": "src\\pages",
       "purpose": "Page components",
       "fileCount": 4,
-      "lastAccessed": 1772100379614,
+      "lastAccessed": 1772782719503,
       "keyFiles": [
         "About.jsx",
         "ErrorPage.jsx",
@@ -145,105 +158,57 @@
   },
   "hotPaths": [
     {
-      "path": "src\\pages\\Home.jsx",
-      "accessCount": 6,
-      "lastAccessed": 1772101897032,
+      "path": "src\\pages\\Project.jsx",
+      "accessCount": 17,
+      "lastAccessed": 1772784905939,
       "type": "file"
     },
     {
-      "path": "",
-      "accessCount": 6,
-      "lastAccessed": 1772102197971,
-      "type": "directory"
+      "path": "src\\components\\Popup.js",
+      "accessCount": 3,
+      "lastAccessed": 1772784481435,
+      "type": "file"
     },
     {
-      "path": "package.json",
-      "accessCount": 6,
-      "lastAccessed": 1772102767872,
+      "path": "src\\components\\ProjectDetail.jsx",
+      "accessCount": 3,
+      "lastAccessed": 1772784928592,
       "type": "file"
     },
     {
       "path": "src\\components\\Header.jsx",
-      "accessCount": 5,
-      "lastAccessed": 1772101897048,
-      "type": "file"
-    },
-    {
-      "path": "src\\pages\\About.jsx",
-      "accessCount": 3,
-      "lastAccessed": 1772101897169,
-      "type": "file"
-    },
-    {
-      "path": "src\\index.js",
-      "accessCount": 3,
-      "lastAccessed": 1772101926101,
-      "type": "file"
-    },
-    {
-      "path": "src\\index.css",
-      "accessCount": 3,
-      "lastAccessed": 1772101926168,
-      "type": "file"
-    },
-    {
-      "path": "postcss.config.js",
-      "accessCount": 3,
-      "lastAccessed": 1772101977340,
-      "type": "file"
-    },
-    {
-      "path": "tailwind.config.js",
       "accessCount": 2,
-      "lastAccessed": 1772101926036,
+      "lastAccessed": 1772784269539,
       "type": "file"
     },
     {
-      "path": "src\\App.jsx",
+      "path": "src",
       "accessCount": 2,
-      "lastAccessed": 1772101935206,
-      "type": "file"
+      "lastAccessed": 1772784881915,
+      "type": "directory"
     },
     {
-      "path": "public\\index.html",
-      "accessCount": 2,
-      "lastAccessed": 1772102134221,
-      "type": "file"
-    },
-    {
-      "path": "src\\context\\ThemeContext.jsx",
-      "accessCount": 2,
-      "lastAccessed": 1772102134266,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\ThemeToggle.jsx",
-      "accessCount": 2,
-      "lastAccessed": 1772102134324,
-      "type": "file"
-    },
-    {
-      "path": "src\\pages\\Project.jsx",
+      "path": "src\\components\\CategoryFilter.js",
       "accessCount": 1,
-      "lastAccessed": 1772101079676,
-      "type": "file"
-    },
-    {
-      "path": "src\\App.css",
-      "accessCount": 1,
-      "lastAccessed": 1772101935228,
+      "lastAccessed": 1772783600096,
       "type": "file"
     },
     {
       "path": "src\\Popup.css",
       "accessCount": 1,
-      "lastAccessed": 1772101935279,
+      "lastAccessed": 1772784404910,
       "type": "file"
     },
     {
-      "path": "src\\components\\Popup.js",
+      "path": "src\\index.css",
       "accessCount": 1,
-      "lastAccessed": 1772101935333,
+      "lastAccessed": 1772784510966,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ProjectLinks.js",
+      "accessCount": 1,
+      "lastAccessed": 1772784885672,
       "type": "file"
     }
   ],

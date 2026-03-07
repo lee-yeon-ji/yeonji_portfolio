@@ -12,12 +12,9 @@ export default function Home() {
     }, [words.length]);
 
     return (
-        <div className="grid grid-cols-1 flex-1 gap-14 max-w-7xl max-h-full h-full pl-5 text-gray-900 lg:grid-cols-2 lg: max-w-auto lg:mx-auto dark:text-white" >
+        <div className="flex flex-1  flex-shrink-0 text-gray-900 lg:max-w-auto  dark:text-white" >
 
-            <div className="lg:flex hidden">
-                <img  src="/img/developer_1.png" alt="img" />
-            </div>
-            <div className="flex flex-col justify-center align-center">
+            <div className="max-w-7xl w-full mx-auto flex flex-col  justify-center px-4">
                 <h1 className="font-bold text-5xl lg:text-8xl pb-14">LEE YEONJI</h1>
 
                 <div className="flex gap-4 text-2 lg:text-3xl mb-14 ">

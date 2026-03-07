@@ -1,4 +1,4 @@
-export default function ProjectDetail({ category, description, skills, site }) {
+export default function ProjectDetail({ category, description, skills, site, github }) {
     return (
         <div className="space-y-4">
             <div>
@@ -18,16 +18,33 @@ export default function ProjectDetail({ category, description, skills, site }) {
             </div>
 
 
-            <div className="flex">
-                <p className="font-semibold ">Site</p>
-                <a
-                    href={site}
-                    className="text-blue-600 dark:text-blue-400 break-all pl-5 "
-                >
-                    {site}
-                </a>
-            </div>
+            {site && (
+                <div className="flex">
+                    <p className="font-semibold">Site</p>
+                    <a
+                        href={site}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 dark:text-blue-400 break-all pl-5"
+                    >
+                        {site}
+                    </a>
+                </div>
+            )}
 
+            {github && (
+                <div className="flex">
+                    <p className="font-semibold">GitHub</p>
+                    <a
+                        href={github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 dark:text-blue-400 break-all pl-5"
+                    >
+                        {github}
+                    </a>
+                </div>
+            )}
 
         </div>
 
