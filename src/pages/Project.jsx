@@ -39,12 +39,12 @@ export default function Project() {
         },
         {
             id: 4,
-            name: "(주)아몬드",
-            category: "PUBLISHING",
+            name: "MyBreeders",
+            category: "FRONTEND",
             img: "/img/img_project4.png",
             github: "",
-            description: "(주)아몬드 회사 홈페이지 입니다.",
-            skills: ["HTML", "CSS", "JavaScript", "Responsive Design","Swiper"],
+            description: "파충류 종합 플랫폼 입니다.",
+            skills: ["HTML", "CSS", "Responsive Design", "TypeScript"],
             site: "https://app.convave.com/"
         },
         {
@@ -73,7 +73,7 @@ export default function Project() {
             category: "PUBLISHING",
             img: "/img/img_project10.png",
             github: "",
-            description: "아실 모바일 입니다.",
+            description: "아실 인테리어 앱 입니다.",
             skills: ["HTML", "CSS", "JavaScript", "Responsive Design", "Swiper"],
             site: ""
         },
