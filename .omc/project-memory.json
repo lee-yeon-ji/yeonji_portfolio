@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1772782719528,
+  "lastScanned": 1773152980130,
   "projectRoot": "C:\\Users\\duswl\\portfolio",
   "techStack": {
     "languages": [
@@ -61,7 +61,7 @@
       "path": "build",
       "purpose": "Build output",
       "fileCount": 4,
-      "lastAccessed": 1772782719479,
+      "lastAccessed": 1773152980089,
       "keyFiles": [
         "asset-manifest.json",
         "index.html",
@@ -73,7 +73,7 @@
       "path": "onbite-exam",
       "purpose": null,
       "fileCount": 9,
-      "lastAccessed": 1772782719499,
+      "lastAccessed": 1773152980104,
       "keyFiles": [
         "eslint.config.js",
         "index.html",
@@ -86,7 +86,7 @@
       "path": "public",
       "purpose": "Public files",
       "fileCount": 3,
-      "lastAccessed": 1772782719500,
+      "lastAccessed": 1773152980104,
       "keyFiles": [
         "index.html",
         "manifest.json",
@@ -96,8 +96,8 @@
     "src": {
       "path": "src",
       "purpose": "Source code",
-      "fileCount": 8,
-      "lastAccessed": 1772782719500,
+      "fileCount": 7,
+      "lastAccessed": 1773152980105,
       "keyFiles": [
         "App.css",
         "App.jsx",
@@ -110,14 +110,14 @@
       "path": "build\\static",
       "purpose": "Static files",
       "fileCount": 0,
-      "lastAccessed": 1772782719501,
+      "lastAccessed": 1773152980105,
       "keyFiles": []
     },
     "onbite-exam\\public": {
       "path": "onbite-exam\\public",
       "purpose": "Public files",
       "fileCount": 1,
-      "lastAccessed": 1772782719502,
+      "lastAccessed": 1773152980106,
       "keyFiles": [
         "vite.svg"
       ]
@@ -126,7 +126,7 @@
       "path": "onbite-exam\\src",
       "purpose": "Source code",
       "fileCount": 5,
-      "lastAccessed": 1772782719502,
+      "lastAccessed": 1773152980106,
       "keyFiles": [
         "App.css",
         "App.tsx",
@@ -137,7 +137,7 @@
       "path": "src\\components",
       "purpose": "UI components",
       "fileCount": 7,
-      "lastAccessed": 1772782719503,
+      "lastAccessed": 1773152980107,
       "keyFiles": [
         "CategoryFilter.js",
         "dark.jsx",
@@ -148,7 +148,7 @@
       "path": "src\\pages",
       "purpose": "Page components",
       "fileCount": 4,
-      "lastAccessed": 1772782719503,
+      "lastAccessed": 1773152980107,
       "keyFiles": [
         "About.jsx",
         "ErrorPage.jsx",
@@ -158,57 +158,81 @@
   },
   "hotPaths": [
     {
-      "path": "src\\pages\\Project.jsx",
-      "accessCount": 17,
-      "lastAccessed": 1772784905939,
+      "path": "src\\pages\\About.jsx",
+      "accessCount": 8,
+      "lastAccessed": 1773154475381,
       "type": "file"
     },
     {
-      "path": "src\\components\\Popup.js",
-      "accessCount": 3,
-      "lastAccessed": 1772784481435,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\ProjectDetail.jsx",
-      "accessCount": 3,
-      "lastAccessed": 1772784928592,
-      "type": "file"
-    },
-    {
-      "path": "src\\components\\Header.jsx",
+      "path": "",
       "accessCount": 2,
-      "lastAccessed": 1772784269539,
-      "type": "file"
-    },
-    {
-      "path": "src",
-      "accessCount": 2,
-      "lastAccessed": 1772784881915,
+      "lastAccessed": 1773153267271,
       "type": "directory"
     },
     {
-      "path": "src\\components\\CategoryFilter.js",
+      "path": "public\\img\\ic_react.svg",
       "accessCount": 1,
-      "lastAccessed": 1772783600096,
+      "lastAccessed": 1773153277091,
       "type": "file"
     },
     {
-      "path": "src\\Popup.css",
+      "path": "public\\img\\ic_html.svg",
       "accessCount": 1,
-      "lastAccessed": 1772784404910,
+      "lastAccessed": 1773153277440,
       "type": "file"
     },
     {
-      "path": "src\\index.css",
+      "path": "public\\img\\ic_css.svg",
       "accessCount": 1,
-      "lastAccessed": 1772784510966,
+      "lastAccessed": 1773153277498,
       "type": "file"
     },
     {
-      "path": "src\\components\\ProjectLinks.js",
+      "path": "public\\img\\ic_js.svg",
       "accessCount": 1,
-      "lastAccessed": 1772784885672,
+      "lastAccessed": 1773153277866,
+      "type": "file"
+    },
+    {
+      "path": "public\\img\\ic_typescript.svg",
+      "accessCount": 1,
+      "lastAccessed": 1773153278326,
+      "type": "file"
+    },
+    {
+      "path": "public\\img\\ic_figma.svg",
+      "accessCount": 1,
+      "lastAccessed": 1773153278764,
+      "type": "file"
+    },
+    {
+      "path": "src\\assets\\icons\\ic_tailwind.svg",
+      "accessCount": 1,
+      "lastAccessed": 1773153430921,
+      "type": "file"
+    },
+    {
+      "path": "src\\assets\\icons\\ic_zustand.svg",
+      "accessCount": 1,
+      "lastAccessed": 1773153439697,
+      "type": "file"
+    },
+    {
+      "path": "src\\assets\\icons\\ic_vite.svg",
+      "accessCount": 1,
+      "lastAccessed": 1773153452420,
+      "type": "file"
+    },
+    {
+      "path": "src\\assets\\icons\\ic_vercel.svg",
+      "accessCount": 1,
+      "lastAccessed": 1773153465111,
+      "type": "file"
+    },
+    {
+      "path": "src\\assets\\icons\\ic_tanstack.svg",
+      "accessCount": 1,
+      "lastAccessed": 1773153473126,
       "type": "file"
     }
   ],

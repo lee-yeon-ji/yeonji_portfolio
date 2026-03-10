@@ -1,3 +1,8 @@
+const techStacks = [
+    'React', 'TypeScript', 'JavaScript', 'HTML5', 'CSS',
+    'Tailwind CSS', 'Figma', 'Zustand', 'Vite', 'Vercel', 'Tanstack Query',
+];
+
 export default function About() {
     return (
         <div className="lg:flex-row  flex flex-col opacity-1 max-w-5xl lg:mx-auto text-gray-900 dark:text-white">
@@ -28,43 +33,13 @@ export default function About() {
                 <div className="pt-14">
                     <div className="font-bold text-3xl">My tech stack</div>
                     <div className="pt-6">
-                        <ul className="flex gap-6">
-                            <li className="max-w-12 h-10">
-                                <img className="w-full" src="/img/ic_react.svg" alt="img_react"/>
-                            </li>
-
-
-
-                            <li className="max-w-12 h-10">
-                                <img className="w-12 h-10" src="/img/ic_html.svg" alt="img_react"/>
-
-                            </li>
-
-                            <li className="max-w-12 h-10">
-                                <img className="w-12 h-10" src="/img/ic_css.svg" alt="img_react"/>
-
-                            </li>
-
-                            <li className="max-w-12 h-10">
-                                <img className="w-full h-full" src="/img/ic_js.svg" alt="img_react"/>
-
-                            </li>
-
-
-                            <li className="max-w-12 h-10">
-                                <img className="w-12 h-10" src="/img/ic_typescript.svg" alt="img_react"/>
-
-                            </li>
-
-                            <li className="max-w-12 h-10">
-                                <img className="w-full" src="/img/ic_figma.svg" alt="img_react"/>
-
-                            </li>
-
-
-
+                        <ul className="flex flex-wrap gap-2">
+                            {techStacks.map((stack) => (
+                                <li key={stack} className="px-3 py-1.5 bg-black/10 dark:bg-white/10 backdrop-blur-sm border border-black/20 dark:border-white/20 rounded text-sm font-medium">
+                                    {stack}
+                                </li>
+                            ))}
                         </ul>
-
                     </div>
                 </div>
 
