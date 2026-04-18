@@ -9,13 +9,13 @@ export default function Project() {
     const projects = [
         {
             id: 1,
-            name: "SNS",
+            name: "MyBreeders",
             category: "FRONTEND",
-            img: "/img/img_project.png",
-            github: "https://github.com/lee-yeon-ji/SNS_Project",
-            description: "React.js, TypeScript, Supabase를 이용한 SNS 서비스입니다. 사용자가 로그인 후, 게시글을 작성하고, 다른 사용자의 게시글을 볼 수 있습니다.",
-            skills: ["React.js", "react-router", "Zustand", "Tanstack Query", "TypeScript"],
-            site: "https://sns-project-one.vercel.app/"
+            img: "/img/img_project4.png",
+            github: "",
+            description: "파충류 종합 플랫폼 입니다.",
+            skills: ["HTML", "CSS", "Responsive Design", "TypeScript"],
+            site: "https://mybreeders.com/"
         },
         {
             id: 2,
@@ -39,13 +39,13 @@ export default function Project() {
         },
         {
             id: 4,
-            name: "MyBreeders",
+            name: "SNS",
             category: "FRONTEND",
-            img: "/img/img_project4.png",
-            github: "",
-            description: "파충류 종합 플랫폼 입니다.",
-            skills: ["HTML", "CSS", "Responsive Design", "TypeScript"],
-            site: "https://app.convave.com/"
+            img: "/img/img_project.png",
+            github: "https://github.com/lee-yeon-ji/SNS_Project",
+            description: "React.js, TypeScript, Supabase를 이용한 SNS 서비스입니다. 사용자가 로그인 후, 게시글을 작성하고, 다른 사용자의 게시글을 볼 수 있습니다.",
+            skills: ["React.js", "react-router", "Zustand", "Tanstack Query", "TypeScript"],
+            site: "https://sns-project-one.vercel.app/"
         },
         {
             id: 5,
